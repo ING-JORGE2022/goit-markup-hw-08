@@ -1206,6 +1206,9 @@ footer {
     top: 26px;
     left: 129px;
   }
+  .products ul {
+    margin-left: 0;
+  }
 }
 /* FUENTE ROBOTO */
 body {
