@@ -1,0 +1,32 @@
+@import "../utils/variables.scss";
+
+.icon li a {
+   @include display__center();
+    border-radius: 25px;
+    height: 35px;
+    width: 35px;
+}
+
+.icon li a:hover {
+    background-color: $primary-color-blue;
+}
+.icon li a:focus {
+    background-color: $primary-color-blue;
+    fill:$white;
+}
+
+.icon li a:hover svg path {
+    fill: $white;
+}
+
+.icon {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16px;
+    margin-right: 32px;
+    margin-bottom: 30px;
+    margin-left: 3px;
+}

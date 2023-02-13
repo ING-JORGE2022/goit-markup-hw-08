@@ -1,0 +1,40 @@
+@import "../utils/variables.scss";
+
+footer ul li {
+    list-style: none;
+}
+
+footer {
+    background: #2F303A;
+    display: flex;
+}
+
+.info {
+    margin-left: 20px;
+    margin-top: 20px;
+        
+
+    &__address {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: $white;}
+
+    &__logo {
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+            color: $primary-color-blue;
+            font-family: 'Raleway', sans-serif;
+    }
+
+    &__contact {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            text-decoration: none;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+    }
+}

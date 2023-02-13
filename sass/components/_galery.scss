@@ -1,0 +1,38 @@
+@import "../utils/variables.scss";
+.galery {
+    @include galery_item();
+    @include display_flex_center_column ();
+
+    &__card {
+       @include position_overflow ();
+    }
+       
+    
+
+    &__images {
+        @include display__center ();
+        gap: 30px;
+        list-style: none;
+    }
+
+    &__img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+    }
+
+    &__p {
+        @include display_flex_center_column ();
+        @include galery__p ();
+    }
+
+    &__title {
+
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            color: $primary-color-black;
+            text-align: center;
+
+    }
+}

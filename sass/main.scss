@@ -1,0 +1,22 @@
+@import "./utils/variables.scss";
+@import "./components/page-header";
+@import "./components/section__principal";
+@import "./components/benefits";
+@import "./components/galery";
+@import "./components/team";
+@import "./components/team_icon";
+@import "./components/clients";
+@import "./components/bulletin";
+@import "./components/modal";
+@import "./components/form_modal";
+@import "./components/footer";
+@import "./components/redes_footer";
+@import "./components/bottons__portafolio";
+@import "./components/products__portafolio";
+@import "./components/menu_mobils";
+@import "./components/tablet.scss";
+
+/* FUENTE ROBOTO */
+body {
+    font-family: 'Roboto', sans-serif;    
+}

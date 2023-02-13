@@ -1,0 +1,36 @@
+@import "../utils/variables.scss";
+.benefits {
+    &__p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #757575;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #212121;
+        display: flex;}
+
+    &__container >ul{
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 82px;
+            margin-left: 215px;
+            margin-bottom: 94px;
+            margin-right: 215px;
+    }
+
+    &__list li div {
+            width: 270px;
+            height: 120px;
+            background-color: $color__icon__gris;
+            @include display__center ();
+
+    }
+}

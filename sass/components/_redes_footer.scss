@@ -1,0 +1,44 @@
+@import "../utils/variables.scss";
+
+.social {
+    
+            text-align: center;
+            margin-top: 30px;
+            padding-left: 30px;
+            margin-left: 120px;
+        
+    &__media {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding-left: 10px;
+            margin-top: 50px;
+
+    }
+    &__media li a {
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            border-radius: 25px;
+            height: 45px;
+            width: 45px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+    
+        &__media li a:hover {
+            background-color: #2196F3;
+    
+        }
+
+    &__title {font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        padding-right: 80px;
+        color: $white;}
+}
+

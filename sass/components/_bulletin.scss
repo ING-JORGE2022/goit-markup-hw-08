@@ -1,0 +1,31 @@
+@import "../utils/variables.scss";
+.bulletin {
+    &__button {
+        @include bulletin__button ();
+
+    }
+
+    &__icon {
+    margin-left: 18px;}
+
+    &__input {
+        @include bulletin__input();
+
+    }
+
+    &__tittle {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: $white;
+            margin-left: 48px;
+            margin-top: 35px;
+    }
+        &__icon {
+            margin-left: 18px;
+        }
+}

@@ -1,0 +1,46 @@
+@import "../utils/variables.scss";
+.team {
+    &__container ul {
+            @include display__center();
+            gap: 30px;
+            list-style: none;
+            flex-direction: row;
+            margin-top: 60px;
+    }
+
+    &__name {
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: $primary-color-black;
+    }
+
+    &__profession {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: $secondary-color-grey;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color: $primary-color-black;
+        text-align: center;
+    }
+
+    &__img {
+        margin-left: 30px;
+    }
+
+    &__container__card{
+            background: $white;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+    }
+}

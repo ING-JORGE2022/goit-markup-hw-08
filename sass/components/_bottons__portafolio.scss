@@ -1,0 +1,21 @@
+@import "../utils/variables.scss";
+
+.bottons {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 106px;
+    gap: 8px;
+    margin-bottom: 56px;
+
+    &__button__info {
+        @include bottons__button__info();
+    }
+        &__button__info:hover {
+        @include botton__hover();
+        }
+                &__button__info:focus {
+                    @include botton__focus();
+                }
+}
+
